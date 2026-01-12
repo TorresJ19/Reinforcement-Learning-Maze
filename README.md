@@ -309,37 +309,41 @@ The reward structure is carefully designed to solve several problems:
 
 ### Main Menu
 
-**Design Philosophy**: Enterprise-grade, professional appearance with smooth animations and intuitive navigation.
+**Color Palette**:
+- Background: Deep navy gradient from RGB(10, 15, 25) to RGB(5, 8, 15)
+- Primary accent: Indigo RGB(99, 102, 241) for selected items and highlights
+- Secondary accent: Purple RGB(139, 92, 246) for badges and glows
+- Text: White RGB(255, 255, 255) for primary text, gray RGB(156, 163, 175) for secondary
+- Borders: Dark slate RGB(30, 41, 59)
+- Cards: Semi-transparent dark RGB(20, 25, 35) with 220 alpha
 
-**Features**:
-- Gradient backgrounds with subtle grid patterns
-- Glass-morphism effects on cards
-- Smooth animations and transitions
-- Color-coded information hierarchy
-- Responsive feedback
+**Interactive Elements**:
+- Selected items highlighted in indigo with purple glow
+- Hover states use lighter indigo RGB(129, 140, 248)
+- Menu items use white text on dark background
 
 ### Visual Trainer
 
-**Dashboard Design**: Real-time statistics displayed in card-based layout:
-- Success rate (green)
-- Average steps (blue)
-- Best path (purple)
-- Current progress (amber)
-- Exploration metric (blue)
-- Return value (pink)
+**Statistics Card Colors**:
+- Success rate: Emerald green RGB(34, 197, 94)
+- Average steps: Indigo RGB(99, 102, 241)
+- Best path: Purple RGB(139, 92, 246)
+- Current progress: Amber RGB(251, 191, 36)
+- Exploration metric: Blue RGB(59, 130, 246)
+- Return value: Pink RGB(236, 72, 153)
 
-**Why cards?** Easy to scan, visually distinct, professional appearance.
+**Layout**: Cards arranged in 3-column grid with dark semi-transparent backgrounds and colored left accent bars.
 
 ### Maze Editor
 
-**Interactive Design**: 
-- Color-coded elements (walls, obstacles, start, goal)
-- Real-time visual feedback
-- Drag-to-draw functionality
-- Grid-based precision
-- Load existing mazes for editing
-- Adjustable grid size
-- Professional UI with glass-morphism effects
+**Element Colors**:
+- Walls: Slate gray RGB(71, 85, 105)
+- Obstacles: Red RGB(239, 68, 68)
+- Start position: Green RGB(34, 197, 94)
+- Goal position: Amber RGB(251, 191, 36)
+- Grid lines: Dark slate RGB(30, 41, 59)
+- Background: Navy gradient RGB(10, 15, 25) to RGB(5, 8, 15)
+- Selected mode: Indigo RGB(99, 102, 241)
 
 ---
 

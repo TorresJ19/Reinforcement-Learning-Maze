@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific - training outputs
+runs/
+*.pt
+*.pth
+
+# Generated images/videos (keep source mazes)
+*.png
+*.jpg
+*.mp4
+*.gif
+
+# Keep maze files - they're part of the project
+# mazes/ directory should be tracked
+
+# Logs
+*.log
+
+# Type checking
+.pytype/
+.mypy_cache/
+.pytest_cache/
+
